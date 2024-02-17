@@ -1,0 +1,8 @@
+---
+- name: Deploy Containerized App
+  host:
+  become: true
+  vars_files:
+    - ../files/secrets/credentials.yml
+  roles:
+    - 
